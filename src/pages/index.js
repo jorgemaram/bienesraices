@@ -1,11 +1,12 @@
 import React from "react";
 import Layout from '../components/layout';
+import Encuentra from '../components/encuentra';
+import ListadoPropiedades from '../components/listadoPropiedades';
 import useInicio from '../hooks/useInicio';
 import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 import BackgroundImage from 'gatsby-background-image';
 import * as heroCSS from '../css/hero.module.css';
-import Encuentra from '../components/encuentra';
 
 
 const ImagenBackground = styled(BackgroundImage)`
@@ -35,7 +36,8 @@ const Index = () => {
           `}>{contenido}</p>
         </div>
       </main>
-      <Encuentra/>
+      <Encuentra />
+      <ListadoPropiedades/>
     </Layout>
   );
 }
