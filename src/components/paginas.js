@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import Image from 'gatsby-image';
-import Iconos from './iconos';
 import Layout from './layout';
 import { graphql } from 'gatsby';
 import ListadoPropiedades from './listadoPropiedades';

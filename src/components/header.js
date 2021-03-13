@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 import Navegacion from './navegacion';
-import styled from '@emotion/styled';
 import { css } from '@emotion/react';
 
 const Header = () => {
@@ -33,7 +32,7 @@ const Header = () => {
             justify-content: space-between;
           }
         `}>
-        <Link to={'/'}>
+        <Link to='/'>
           <img src={logo.publicURL} alt='logotipo bienesraíces'/>
         </Link>
 
