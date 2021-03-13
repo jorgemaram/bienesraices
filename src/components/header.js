@@ -33,7 +33,7 @@ const Header = () => {
             justify-content: space-between;
           }
         `}>
-        <Link>
+        <Link to={'/'}>
           <img src={logo.publicURL} alt='logotipo bienesraíces'/>
         </Link>
 
